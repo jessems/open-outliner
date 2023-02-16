@@ -1,29 +1,29 @@
 export const data = [
 	{
 		isFolder: true,
-		name: 'public',
+		content: 'public',
 		children: [
 			{
 				isFolder: false,
-				name: 'index.html'
+				content: 'index.html'
 			}
 		]
 	},
 	{
 		isFolder: true,
-		name: 'src',
+		content: 'src',
 		children: [
 			{
 				isFolder: true,
-				name: 'components',
+				content: 'components',
 				children: [
 					{
 						isFolder: true,
-						name: 'home',
+						content: 'home',
 						children: [
 							{
 								isFolder: false,
-								name: 'Home.js'
+								content: 'Home.js'
 							}
 						]
 					}
@@ -31,7 +31,7 @@ export const data = [
 			},
 			{
 				isFolder: false,
-				name: 'App.js'
+				content: 'App.js'
 			}
 		]
 	}
