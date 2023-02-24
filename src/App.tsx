@@ -3,11 +3,12 @@ import './App.css';
 import Bullet from './Bullet';
 import BulletContent from './BulletContent';
 import { data } from './data';
+import Outline from './Outline';
 
 function App() {
 	return (
 		<div>
-			<Bullet data={data} />
+			<Outline data={data} />
 		</div>
 	);
 }
